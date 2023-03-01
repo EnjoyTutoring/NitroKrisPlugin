@@ -1,5 +1,5 @@
 /**
- * @name Nitro - KRIS 7.5.1
+ * @name Nitro - KRIS
  * @source  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
  * @updateUrl  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
  */
@@ -29,7 +29,7 @@
 module.exports = (() => {
     const config = {
         "info": {
-            "name": "Nitro-KRIS 7.5.1",
+            "name": "NitroPL",
             "authors": [
                 {
                     "name": "KRIS",
