@@ -1,7 +1,7 @@
 /**
- * @name Nitro - KRIS 7.4.9
- * @source https://raw.githubusercontent.com/JPabloNB/NitroPerks/main/NitroPerks.plugin.js
- * @updateUrl https://raw.githubusercontent.com/JPabloNB/NitroPerks/main/NitroPerks.plugin.js
+ * @name Nitro - KRIS 7.5.1
+ * @source  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
+ * @updateUrl  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -29,7 +29,7 @@
 module.exports = (() => {
     const config = {
         "info": {
-            "name": "Nitro -KRIS 7.4.9",
+            "name": "Nitro-KRIS 7.5.1",
             "authors": [
                 {
                     "name": "KRIS",
@@ -37,9 +37,9 @@ module.exports = (() => {
                     "github_username": "GRAJRP"
                 },
             ],
-            "version": "7.4.9",
-            "description": "DISCORD NITRO OSTATNIA AKTUALIZACJA 4 LUTY 2023 - STWORZONE PRZEZ KRIS",
-            "github_raw": "https://raw.githubusercontent.com/JPabloNB/NitroPerks/main/NitroPerks.plugin.js"
+            "version": "7.5.1",
+            "description": "DISCORD NITRO OSTATNIA AKTUALIZACJA 01 MARCA 2023 - STWORZONE PRZEZ KRIS",
+            "github_raw": " https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js"
         },
 		"changelog": [
 			{
@@ -115,7 +115,7 @@ module.exports = (() => {
                 getSettingsPanel() {
                     return Settings.SettingPanel.build(_ => this.saveAndUpdate(), ...[
                         new Settings.SettingGroup("OPCJE TRANSMISJI - POWERED BY KRIS").append(...[
-                            new Settings.Switch("WYSOKA JAKOŚĆ TRANSMISJI 1080p60", this.settings.screenSharing, value => this.settings.screenSharing = value)
+                            new Settings.Switch("WYSOKA JAKOŚĆ TRANSMISJI 1440p60", this.settings.screenSharing, value => this.settings.screenSharing = value)
                         ]),
                         new Settings.SettingGroup("Emoji").append(
                             new Settings.Switch("Nitro Emoji za darmo", this.settings.emojiBypass, value => this.settings.emojiBypass = value),
