@@ -2,6 +2,8 @@
  * @name Nitro - KRIS
  * @source  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
  * @updateUrl  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
+@updateUrl  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
+@source  https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
