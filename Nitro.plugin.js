@@ -39,7 +39,7 @@ module.exports = (() => {
                     "github_username": "GRAJRP"
                 },
             ],
-            "version": "7.5.1",
+            "version": "7.5.2",
             "description": "DISCORD NITRO OSTATNIA AKTUALIZACJA 01 MARCA 2023 - STWORZONE PRZEZ KRIS",
             "github_raw": " https://raw.githubusercontent.com/EnjoyTutoring/NitroKrisPlugin/PLUGIN-MAIN/Nitro.plugin.js"
         },
